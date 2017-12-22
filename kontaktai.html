@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pavadinimas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <ul>
+        <li><a href="index.html">Apie</a></li>
+        <li><a href="Portfalio.html">Portfalio</a></li>
+        <li><a href="Kontaktai.html">Kontaktai</a></li>
+    </ul>
+</header>
+<section>
+    <div>
+        <h1>Kontaktai</h1>
+        <div class="adressas">
+            <p>Vardas <b>Vita</b></p>
+            <p>Pavardė <b>Luk</b></p>
+            <p>El. paštas <b>vytckute@yahoo.com</b></p>
+            <p>Telefonas <b>867844555</b></p>
+        </div>
+    </div>
+    <div class="zemelapis">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36674.499092421465!2d23.8935912!3d54.9352779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e71f30d8cd391b%3A0x68680dce2fbdcf65!2zS3VyxaFpxbMgZy4gNywgS2F1bmFzIDQ4MTA5!5e0!3m2!1slt!2slt!4v1513272923353"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div class="forma">
+        <form action="/submit.php" method="post">
+            <input type="text" placeholder="Jūsų vardas" name="vardas"/>
+            <input type="text" placeholder="Jūsų pavardė" name="pavarde"/>
+            <input type="email" placeholder="Jūsų el-paštas" name="pastas"/>
+            <textarea name="zinute" id="zinute" cols="30" rows="10" placeholder="Jūsų žinutė mums..."></textarea>
+            <input type="submit" value="Patvirtinti"/>
+        </form>
+    </div>
+    <iframe class="youtube" width="560" height="315"
+            src="https://www.youtube.com/embed/-1qffhpaXIA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+            gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <div>
+        <p>fB</p>
+        <img src="data:image/png;base64,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">
+    </div>
+    <div>
+        <p>Live chat</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsFxQQOvgO0VM2toiNr4pLPHAuVP9NX0Epy95vQ3eG_tqFDhW1TA">
+    </div>
+    <div>rodyklė up</div>
+</section>
+<footer><span>&copy; Visos <b>teises</b> <i>saugomos</i> 2017</span></footer>
+</body>
+</html>
