@@ -1,0 +1,43 @@
+.tabs .sheet {
+    display: none;
+
+}
+
+.tabs .active_link {
+    color: red !important;
+}
+
+.tabs .active_sheet {
+    background: linear-gradient(yellow, blueviolet, aliceblue);
+}
+
+.tabs .tab_header ul {
+    list-style: none;
+}
+
+.tabs .tab_header li {
+    float: left;
+    margin: 0 10px
+}
+
+.tabs .tab_header li a {
+    color: black;
+    text-decoration: none;
+}
+
+.tabs .tab_header, .tabs .sheets {
+    overflow: auto;
+}
+
+.sheets {
+    display: inline-block;
+
+}
+
+.sheet p {
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    text-justify: auto;
+    margin: 20px;
+    padding: 20px;
+}

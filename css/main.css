@@ -1,0 +1,52 @@
+.konteineris {
+    width: 720px;
+    margin: 0 auto;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 0 5px 20px;
+    padding: 10px;
+}
+
+img.foto {
+    border: 1px solid black;
+    margin: 0 20px 9px 0;
+    padding: 5px;
+}
+
+.profilis {
+    overflow: auto;
+}
+
+.profilis .foto {
+    float: left;
+}
+
+h1 {
+    font-size: 32px;
+    color: red;
+}
+
+h2 {
+    font-size: 24px;
+    color: blue;
+    margin: 10px 0;
+}
+
+@keyframes boom {
+    0% {
+        width: 100px;
+
+    }
+    50% {
+        width: 150px;
+
+    }
+    100% {
+        width: 100px;
+    }
+}
+
+.profilis .foto:hover {
+    animation-name: boom;
+    animation-duration: 2s;
+}
