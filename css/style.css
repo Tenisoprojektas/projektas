@@ -16,8 +16,9 @@ header {
     align-items: center;
 }
 @keyframes dd{
-    from{background-color: blue;}
-        to {background-color :blueviolet;}
+    from{background-color: green;}
+        to {background-color :greenyellow;}
+
 }
 header ul {
     list-style: none;
