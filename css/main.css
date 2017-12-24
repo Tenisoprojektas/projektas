@@ -5,6 +5,7 @@
     border-right: 1px solid gray;
     box-shadow: 0 5px 20px;
     padding: 10px;
+
 }
 
 img.foto {
@@ -45,6 +46,13 @@ h2 {
         width: 100px;
     }
 }
-
-
-
+.profilis .foto:hover {
+    animation-name: boom;
+    animation-duration: 2s;
+}
+.fb
+{
+  display: inline-block;
+    justify-content: center;
+    align-items: center;
+}

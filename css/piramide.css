@@ -124,7 +124,7 @@ td.label {
 #piramides-legenda {
     position: absolute;
     top: 120px;
-    left: 300px;
+    left: 60px;
     z-index: 4;
     background: #fff;
 }
@@ -190,3 +190,8 @@ h4 {
     color:#242424;
     padding-left:33px;
 }
+/*
+canvas {
+    background: #082849;
+}
+*/
