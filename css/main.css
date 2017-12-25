@@ -6,6 +6,7 @@
     box-shadow: 0 5px 20px;
     padding: 10px;
 
+    background: linear-gradient(#ecfbde, white);
 }
 
 img.foto {
@@ -46,21 +47,40 @@ h2 {
         width: 200px;
     }
 }
+
 .profilis .foto:hover {
     animation-name: boom;
     animation-duration: 2s;
 }
-.fb
-{
-  display: inline-block;
+
+.fb {
+    display: inline-block;
     justify-content: center;
     align-items: center;
     margin-left: 200px;
 }
-.laisva
-{height: 300px;}
 
-.youtube
-{margin-left:80px;}
-.zemelapis
-{margin-left:60px;}
+.laisva {
+    height: 200px;
+}
+
+.youtube {
+    margin-left: 80px;
+}
+
+.zemelapis {
+    margin-left: 60px;
+}
+
+.sveikinimas {
+    font-family: "Comic Sans MS";
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+.sveikinimas2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}

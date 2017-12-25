@@ -1,0 +1,13 @@
+
+#myCanvas {
+    z-index: -1;
+    left: 1100px;
+    position: absolute;
+}
+
+.ball {
+    z-index: -1;
+ position: absolute;
+
+
+}

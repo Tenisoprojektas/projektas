@@ -181,17 +181,39 @@ h4 {
     font-weight: normal;
     text-transform: uppercase;
 }
-.legend-line{
-    margin-bottom:6px;
-    background-repeat:no-repeat;
-    background-image:url(/../images/legend-bg.png);
-    line-height:26px;
-    font-size:12px;
-    color:#242424;
-    padding-left:33px;
+
+.legend-line {
+    margin-bottom: 6px;
+    background-repeat: no-repeat;
+    background-image: url(/../images/legend-bg.png);
+    line-height: 26px;
+    font-size: 12px;
+    color: #242424;
+    padding-left: 33px;
 }
+
 /*
 canvas {
     background: #082849;
 }
 */
+h5 {
+    font-size: 24px;
+    font-family: sans-serif;
+    color: forestgreen;
+    font-weight: normal;
+    left: 1090px;
+    position: absolute;
+    overflow: hidden;
+}
+
+h6 {
+    font-size: 110px;
+    font-family: sans-serif;
+    color: green;
+    font-weight: normal;
+    left: 1120px;
+    margin-top: 40px;
+    position: absolute;
+    overflow: hidden;
+}

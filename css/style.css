@@ -1,6 +1,6 @@
 body {
-    font-family: Arial;
-    background-image: url("http://tennisballcourts.com/images/tennisball-footer.jpg");
+    font-family: initial;
+        background-image: url("http://tennisballcourts.com/images/tennisball-footer.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
