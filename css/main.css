@@ -24,12 +24,12 @@ img.foto {
 
 h1 {
     font-size: 32px;
-    color: red;
+    color: darkgreen;
 }
 
 h2 {
     font-size: 24px;
-    color: blue;
+    color: green;
     margin: 10px 0;
 }
 
@@ -56,3 +56,5 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+.laisva
+{height: 300px;}
