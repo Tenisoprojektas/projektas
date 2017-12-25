@@ -35,15 +35,15 @@ h2 {
 
 @keyframes boom {
     0% {
-        width: 100px;
+        width: 200px;
 
     }
     50% {
-        width: 150px;
+        width: 300px;
 
     }
     100% {
-        width: 100px;
+        width: 200px;
     }
 }
 .profilis .foto:hover {
@@ -55,6 +55,12 @@ h2 {
   display: inline-block;
     justify-content: center;
     align-items: center;
+    margin-left: 200px;
 }
 .laisva
 {height: 300px;}
+
+.youtube
+{margin-left:80px;}
+.zemelapis
+{margin-left:60px;}
