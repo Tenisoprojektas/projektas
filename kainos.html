@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/ball.css">
+    <link rel="stylesheet" href="css/tabs.css">
 
 
 </head>
@@ -25,10 +26,27 @@
 <section>
     <div class="konteineris">
         <h1>Kainos</h1><br>
-        <img src="images/kainos.JPG" height="293" width="508"/></div>
-    <div class="laisva"></div>
+        <div class="tabs">
+            <div class="tab_header">
+                <ul>
+                    <li><a href="#sheet1" onclick="keistiTab(this)">Žiemos sezonas</a></li>
+                    <li><a href="#sheet2" onclick="keistiTab(this)">Vasaros sezonas</a></li>
+                </ul>
+                <div class="sheets">
+                    <div class="sheet" id="sheet1">
+                        <img src="images/kainos.JPG" height="293" width="508"/>
+                    </div>
+                    <div class="sheet" id="sheet2">
+
+                        <img src="images/kainos2.JPG" height="468" width="720"/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="laisva"></div>
 </section>
 <footer><span>&copy; Visos <b>teises</b> <i>saugomos</i> 2017</span></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/tab.js"></script>
 </body>
 </html>

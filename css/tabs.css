@@ -4,12 +4,10 @@
 }
 
 .tabs .active_link {
-    color: red !important;
+    color: greenyellow !important;
 }
 
-.tabs .active_sheet {
-    background: linear-gradient(yellow, blueviolet, aliceblue);
-}
+
 
 .tabs .tab_header ul {
     list-style: none;
@@ -40,4 +38,8 @@
     text-justify: auto;
     margin: 20px;
     padding: 20px;
+}
+.sheet img
+{
+    margin-top: 20px;
 }
